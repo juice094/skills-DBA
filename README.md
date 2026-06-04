@@ -1,6 +1,18 @@
-# skills-DBA
+# skills-DBA (ARCHIVED)
 
-Skills Database Administration — local skill index with FTS5 full-text search, multi-source async sync, and recommendation engine.
+> **This project has been merged into [devbase](https://github.com/juice094/devbase).**
+>
+> All functionality from skills-DBA — FTS5 full-text skill search with BM25 ranking,
+> pluggable external skill sources (GitHub, local files), sync audit logging —
+> has been integrated into devbase v0.20.1+ (schema v35-v36).
+>
+> - FTS5 skill search: `devbase skill search <query>` or MCP `devkit_skill_search`
+> - External skill sync: `devbase skill import <source>` or MCP `devkit_skill_sync`
+>
+> **This repository is archived and will not receive further updates.**
+> Please use [devbase](https://github.com/juice094/devbase) for all skill database needs.
+
+Skills Database Administration — local skill index with FTS5 full-text search, multi-source async sync, and recommendation engine. *(Now part of devbase)*
 
 ## Architecture
 
